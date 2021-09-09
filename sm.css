@@ -1,0 +1,35 @@
+.bars1{
+    display: none;
+}
+.icn{
+    display: inline-block;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.icn i{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 7px;
+    border: 1px solid #282828;
+    color: #282828;
+    border-radius: 3px;
+} 
+.headimg{
+    background-color: #4ca368;
+    width: 100%;
+    
+}
+.swipe{
+    margin: 0px 5%;
+}
+.comph{
+    background-color: #eae0f1;
+    margin: 0px 0%;
+}
+.f1{
+    font-size: large;
+    padding: 1rem;
+    text-align: left;
+}

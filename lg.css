@@ -1,0 +1,396 @@
+.qwe{
+    background-color: #282828;
+    color: white;
+}
+.qwe i{
+    padding: 2px;
+    font-size: 8px;
+}
+.qwe2 {
+    background-color: #282828;
+    color: white;
+}
+.qwe2 i{
+    padding: 2px;
+   color: white;
+    font-size: 8px;
+}
+.qwe2 span{
+    font-size: 8px;
+  color: white;
+    padding: 2px;
+    padding-right: 1px;
+}
+.cont{
+    height: 65px;
+    background-color: white;
+    color:#282828;
+    margin: 0% 10% 0% 10%;
+}
+.bars1{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: center;
+}
+.band{
+    display: flex;
+    
+    align-items: center;
+    font-size: 20px;
+}
+.na1,.na2,.na3,.na4{
+    padding:0px 15px 0px 15px ;
+}
+.na4{
+    border: 1px solid #282828;
+    border-radius: 8px;
+    font-weight: normal;
+    color: #4ca368;
+    transition: .6s;
+}
+
+.na4:hover{
+    color: white;
+    
+    background-color: #4ca368;
+    
+}
+.icn{
+    display: none;
+}
+.slid{
+    height: 100vh;
+    width: 60%;
+    position: fixed;
+    z-index: 100000;
+    background-color: white;
+    overflow: auto;
+    right: -100%;
+    border-left: 1px solid gainsboro;
+    transition: 1s;
+}
+.slid i{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    
+    left: 4px;
+    top:4px;
+}
+.slid .na{
+    text-align: center;
+    padding:20px;
+    border-bottom: 1px solid #b4b0b0;
+}
+.slid .na span{
+    color:#4ca368;
+}
+ .nab{
+    color:#4ca368;
+}
+.headimg{
+    background-color: #4ca368;
+    width: 100%;
+    
+}
+.heading1 {
+    margin: 0px 10%;
+}
+.heading1 .hh1{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 3%;
+}
+.heading1 .hh2{
+    text-align: center;
+     font-size: smaller;
+}
+.heading1 div img{
+    min-width: 200px;
+    max-width: 650px;
+    
+    height: auto;
+    padding: 25px;
+}
+.inp1{
+    display: flex;
+    justify-content: center;
+}
+.inp1 input{
+    padding-left: 10px;
+    border-radius: 15px 0px 0px 15px;
+    min-height: 2rem;
+    border: 0px;
+    outline: none;
+}
+.inp1 span{
+    background-color: #37804e;
+    min-height: 2rem;
+    text-align: center;
+    color:white;
+    font-size: smaller;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+    border-radius: 0px 15px 15px 0px;
+}
+.inpf{
+    text-align: center;
+    font-size: smaller;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+.comh{
+    font-size: x-large;
+    font-weight: 600;
+    
+}
+.comc1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.comc1 i{
+    color:#5db442;
+    font-size: 3rem;
+}
+.com2 img{
+    margin-left: 15px;
+    padding-top: 1rem;
+}
+.com2 ol{
+    
+    padding: 0px;
+    margin-left: 30px;
+    padding-bottom: 1rem;
+}
+.com2 p{
+    margin-left: 15px;
+    color: #5db442;
+    font-size: x-large;
+    margin-bottom: 5px;
+}
+.commo{
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.com1{
+    background-color: #ffffff;
+    width: 95%;
+    max-width: 500px;
+
+    margin-bottom: 1rem;
+}
+.log{
+    padding: 10px;
+    border: 1px solid #5db442;
+    border-radius: 50%;
+    color:#5db442;
+}
+.logsec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.log:hover{
+   color: white;
+   background-color: #5db442;
+}
+.logm{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.log1{
+    width: 95%;
+    max-width: 500px;
+}
+.swipe{
+    border-radius: 15px;
+    border: 1px solid #37804e;
+    position: relative;
+    overflow: hidden;
+    margin: 0px 30%;
+    outline: none;
+}
+.swipe div{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    font-size: 12px;
+}
+.swipe div:hover{
+    background-color: #5db442;
+    color: white;
+}
+.swipe span{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 50%;
+    top:50%;
+    left:50%;
+    background-color: #37804e;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.aff1{
+    border: 1px solid #eae0f1;
+    margin-top: 2rem;
+    position: relative;
+}
+.affh{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 3rem;
+    border-top: 3px solid #eae0f1;
+}
+.icnc{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 8px;
+}
+.icnc .fa-times{
+    color: red;
+    padding: 2px;
+}
+.icnc .fa-check-circle{
+    color: #5db442;
+    padding: 2px;
+}
+.price{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #eae0f1;
+    position: absolute;
+    top:95px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+.purc{
+    text-align: center;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px solid #37804e;
+    margin: 1rem 0px;
+}
+.ppp{
+    margin: 0px 1px;
+}
+.aff1:hover > div > .affh{
+    border-top: 3px solid #5db442;
+}
+.aff1:hover > .price{
+    border: 2px solid #5db442;
+    box-shadow: 2px #5db442;
+}
+.purc:hover{
+    background-color: #5db442;
+}
+.comph1 div i{
+    color: #5db442;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eae0f1;
+    
+}
+.comph{
+    background-color: #eae0f1;
+    margin: 0px 10%;
+}
+.comph1{
+    background-color: white;
+    transform: scale(.9);
+}
+.comph1 div{
+    padding-top: 1rem;
+    text-align: center;
+}
+.comph1 .div{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1rem;
+}
+.comph1 p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    margin: 5% 10%;
+}
+.inp5 input{
+    outline: none;
+    border: none;
+    width: 60%;
+    padding: 10px 0% 10px 10%;
+}
+.inp5 span{
+    background-color: #5db442;
+    width: 30%;
+    color: white;
+    padding: 10px 0%;
+    text-align: center;
+    font-size: 20px;
+}
+.inp5{
+    padding: 10px 0px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: #efefef;
+    margin: 0px 10%;
+    padding-top: 2rem;
+    border-bottom: 1px solid rgb(207, 200, 200);
+}
+h6{
+    font-size: 13px;
+    font-weight: bold;
+}
+.ttr{
+    text-align: left;
+    padding-left: 4rem;
+}
+.ttf{
+    text-align: left;
+    padding-left: 4rem;
+}
+.f1{
+    font-size: x-large;
+    padding: 1rem;
+}
+.f2{
+    font-size: 10px;
+    padding: 1rem;
+    text-align: right;
+}
+.finish{
+    margin: 0px 10%;
+}
+.comph1:hover{
+    background-color: #5db442;
+    color: white;
+}
+.comph1:hover >div >i{
+    color: white;
+}

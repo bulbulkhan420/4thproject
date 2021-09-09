@@ -1,0 +1,35 @@
+.cont{
+    margin: 0% 2% 0% 2%;
+}
+.na4{
+    font-size: 12px;
+}
+.heading1 div img{
+    min-width: 200px;
+    max-width: 500px;
+    
+    height: auto;
+    padding: 25px;
+}
+.headimg{
+    background-color: #4ca368;
+    width: 100%;
+    
+}
+.swipe{
+    margin: 0px 15%;
+}
+.comph{
+    background-color: #eae0f1;
+    margin: 0px 5%;
+}
+.comph1 p{
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 1rem;
+    margin: 0% 10%;
+}
+.ttf{
+    text-align: left;
+    padding-left: 0px;
+}
